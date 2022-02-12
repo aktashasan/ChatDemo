@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#040101"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="375dp"
+        android:layout_below="@+id/txtWelcomeAppName"
+        android:layout_marginTop="-51dp"
+        android:src="@drawable/alilith_logo"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/txtWelcomeAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/create_app_name"
+        android:textColor="@android:color/white"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnWelcomeLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnWelcomeRegister"
+        android:layout_marginBottom="48dp"
+        android:background="@color/Button"
+        android:text="@string/create_i_have_account"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnWelcomeRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:background="@color/Button2"
+        android:text="@string/create_new_account"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

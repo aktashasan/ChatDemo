@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Alilith</string>
+    <string name="create_new_account">YENİ HESAP OLUŞTUR</string>
+    <string name="create_i_have_account">HESABIM VAR</string>
+    <string name="create_app_name">ALILITH</string>
+    <string name="create_username">Kullanıcı Adı:</string>
+    <string name="username">Kullanıcı Adı:</string>
+    <string name="email">Email:</string>
+    <string name="password">Parola</string>
+    <string name="create_new_account_lower">Yeni Hesap Oluştur</string>
+    <string name="create_account">HESAP OLUŞTUR</string>
+    <string name="login_with_your_account">Hesabınızla Giriş Yapınız</string>
+    <string name="login">GİRİŞ YAP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
